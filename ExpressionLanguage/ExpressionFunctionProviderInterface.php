@@ -1,0 +1,9 @@
+<?php
+
+namespace Draw\Bundle\DashboardBundle\ExpressionLanguage;
+
+use Symfony\Component\ExpressionLanguage\ExpressionFunctionProviderInterface as BaseExpressionFunctionProviderInterface;
+
+interface ExpressionFunctionProviderInterface extends BaseExpressionFunctionProviderInterface
+{
+}
